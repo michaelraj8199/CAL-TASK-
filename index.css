@@ -1,0 +1,84 @@
+body {
+    font-family: 'Crimson Pro', serif;
+    
+    background: black;
+  } 
+
+#container{
+    widows: 1000px;
+    height: 700px;
+    background-image: linear-gradient(rgha(0,0,0,0.3),rgha(0,0,0,0.3)), url(https://png.pngtree.com/thumb_back/fh260/background/20200714/pngtree-modern-double-color-futuristic-neon-background-image_351866.jpg);
+    margin: 20px auto;
+
+}
+#calculator{
+    width:450px;
+    height: 750px;
+    background-color: #eaedef;
+    margin: 0 auto;
+    top: 20px;
+    position: relative;
+    border-radius: 5px;
+
+}
+#result{
+    height: 120px;
+
+}
+#keyboard{
+    height: 400px;
+}
+
+#history{
+    text-align: right;
+    height: 20px;
+    margin: 0 20px;
+    padding-top: 20px;
+    font-size:15px ;
+
+
+}
+#output{
+    text-align: right;
+    height: 60px;
+    margin: 10px 20px;
+    font-size: 30px;
+
+}
+
+.opertors {
+    width: 50px;
+    height: 50px;
+    margin: 15px;
+    float: left;
+    border-radius: 50%;
+    border-width: 0;
+    font-weight: bold;
+    font-size: 15px
+
+
+}
+.number {
+    width: 50px;
+    height: 50px;
+    margin: 15px;
+    float: left;
+    border-radius: 50%;
+    border-width: 0;
+    font-weight: bold;
+    font-size: 15px
+    
+
+}
+.empty{
+    width: 50px;
+    height: 50px;
+    margin: 15px;
+    float: left;
+    border-radius: 50%;
+    border-width: 0;
+    font-weight: bold;
+    font-size: 15px
+
+
+}
